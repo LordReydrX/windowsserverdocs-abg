@@ -1,0 +1,53 @@
+{
+   "build": {
+      "content": [
+         {
+            "files": [
+               "**/*.md",
+               "**/*.yml"               
+            ],
+            "exclude": [
+               "**/obj/**",
+               "**/includes/**"
+            ]
+         }
+      ],
+      "resource": [
+         {
+            "files": [
+               "**/*.png",
+               "**/*.jpg",
+               "**/*.gif",
+               "**/*.json",
+               "**/*.svg"     
+            ],
+            "exclude": [
+               "**/obj/**",
+               "**/includes/**"
+            ]
+         }
+      ],
+      "overwrite": [],
+      "externalReference": [],
+      "globalMetadata": {
+         "breadcrumb_path": "/windows-server-essentials/breadcrumbs/toc.json",
+         "_op_documentIdPathDepotMapping": {
+            "./": {
+               "depot_name": "WS.EssentialsDocs"
+            }
+         },
+         "recommendations": true
+      },
+      "fileMetadata": {
+         "ms.prod": {
+            "**/*.md": "windows-server"
+         },
+         "ms.technology": {
+            "**/*.md": "essentials"
+         }
+      },
+       "template": [],
+       "dest": "window-server-docs/essentials",
+       "markdownEngineName": "markdig"
+   }
+}

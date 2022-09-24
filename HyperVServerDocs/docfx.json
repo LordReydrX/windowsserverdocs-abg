@@ -1,0 +1,45 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.md"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "hyper-v-server-docs/**",
+          "**/includes/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "hyper-v-server-docs/**",
+          "**/includes/**"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {
+        "_op_documentIdPathDepotMapping": {
+            "./": {
+              "depot_name": "WS.HyperVServerDocs"
+            }
+        },
+       "recommendations": true
+    },
+    "fileMetadata": {},
+    "template": [
+      null
+    ],
+    "dest": "hyper-v-server-docs",
+    "markdownEngineName": "dfm"
+  }
+}
